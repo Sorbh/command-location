@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.unicodelabs.location">
+
+    <application>
+        <activity android:name="in.unicodelabs.location.permission.PermissionRequestActivity" />
+        <activity android:name="in.unicodelabs.location.TransparentActivity" />
+
+        <service android:name="in.unicodelabs.location.LocationBackGroundService" />
+    </application>
+</manifest>
