@@ -31,18 +31,24 @@ This library is posted in jCenter
 
 #### Gradle
 ```
-implementation 'in.unicodelabs.location:command-location:1.0.0'
+implementation 'in.unicodelabs.sorbh:command-location:1.0.0'
 ```
 
 #### Maven
 ```
 <dependency>
-  <groupId>in.unicodelabs.location</groupId>
+  <groupId>in.unicodelabs.sorbh</groupId>
   <artifactId>command-location</artifactId>
   <version>1.0.0</version>
   <type>pom</type>
 </dependency>
 ```
+
+This library has google play service dependencies. Please add this variable to your project's root build.gradle
+
+ext{
+    googlePlayServiceVersion = "<your google play service version>"
+}
 
 # Usage
 
@@ -120,7 +126,7 @@ builder.start();
  
 ## Contributing
 
-1. Fork it (<https://github.com/sorbh/KdLoadingView/fork>)
+1. Fork it (<https://github.com/sorbh/command-location/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)

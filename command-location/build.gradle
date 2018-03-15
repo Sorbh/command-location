@@ -25,5 +25,8 @@ android {
 }
 
 dependencies {
-    compile "com.google.android.gms:play-services-location:"+googlePlayServiceVersion
+    implementation "com.google.android.gms:play-services-location:"+googlePlayServiceVersion
 }
+
+
+apply from: 'deploy.gradle'
