@@ -107,7 +107,7 @@ builder.setRequestMode(CommandLocation.CommandMode.SINGLE);
         });
 ```
 
-**finally to start the location update call start().
+**finally to start the location update call start().**
 ```text
 builder.start();
 ```
