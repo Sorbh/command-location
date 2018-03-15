@@ -1,4 +1,4 @@
-package in.unicodelabs.location;
+package in.unicodelabs.location.callback;
 
 import android.location.Location;
 

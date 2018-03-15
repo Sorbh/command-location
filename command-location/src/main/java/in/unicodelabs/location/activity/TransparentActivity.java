@@ -1,4 +1,4 @@
-package in.unicodelabs.location;
+package in.unicodelabs.location.activity;
 
 import android.app.Activity;
 import android.content.Context;
@@ -12,6 +12,7 @@ import android.util.Log;
 
 import com.google.android.gms.common.api.ResolvableApiException;
 
+import in.unicodelabs.location.GlobalConstant;
 import in.unicodelabs.location.permission.PermissionConstant;
 
 /**

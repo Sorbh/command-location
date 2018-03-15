@@ -22,10 +22,13 @@ import com.google.android.gms.location.SettingsClient;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 
+import in.unicodelabs.location.activity.TransparentActivity;
+import in.unicodelabs.location.callback.LocationResultCallback;
 import in.unicodelabs.location.permission.GetPermission;
 import in.unicodelabs.location.permission.PermissionResponse;
 import in.unicodelabs.location.permission.PermissionResultCallback;
 import in.unicodelabs.location.permission.PermissionUtils;
+import in.unicodelabs.location.service.LocationBackGroundService;
 
 /**
  * Created by saurabh on 13/3/18.

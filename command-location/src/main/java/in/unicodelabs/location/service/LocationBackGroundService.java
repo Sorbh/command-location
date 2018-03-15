@@ -1,4 +1,4 @@
-package in.unicodelabs.location;
+package in.unicodelabs.location.service;
 
 import android.app.Service;
 import android.content.Context;
@@ -19,6 +19,9 @@ import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+
+import in.unicodelabs.location.CommandLocation;
+import in.unicodelabs.location.GlobalConstant;
 
 /**
  * Created by saurabh on 13/3/18.

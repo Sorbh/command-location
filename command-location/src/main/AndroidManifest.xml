@@ -3,8 +3,8 @@
 
     <application>
         <activity android:name="in.unicodelabs.location.permission.PermissionRequestActivity" />
-        <activity android:name="in.unicodelabs.location.TransparentActivity" />
+        <activity android:name="in.unicodelabs.location.activity.TransparentActivity" />
 
-        <service android:name="in.unicodelabs.location.LocationBackGroundService" />
+        <service android:name="in.unicodelabs.location.service.LocationBackGroundService" />
     </application>
 </manifest>

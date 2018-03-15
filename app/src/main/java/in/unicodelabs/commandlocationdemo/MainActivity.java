@@ -8,7 +8,7 @@ import android.widget.Toast;
 import com.google.android.gms.location.LocationRequest;
 
 import in.unicodelabs.location.CommandLocation;
-import in.unicodelabs.location.LocationResultCallback;
+import in.unicodelabs.location.callback.LocationResultCallback;
 
 public class MainActivity extends AppCompatActivity {
 
